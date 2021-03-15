@@ -6,19 +6,19 @@ $tertiary-color: #ffffff;
 // font family
 @font-face {
   font-family: avenir-next;
-  src: url("/assets/fonts/Avenir-Next.ttf") format("truetype");
+  src: url("../fonts/Avenir-Next.ttf") format("truetype");
 }
 @font-face {
   font-family: chapaza-regular;
-  src: url("/assets/fonts/Chapaza.ttf") format("truetype");
+  src: url("../fonts/Chapaza.ttf") format("truetype");
 }
 @font-face {
   font-family: bodoni-72;
-  src: url("/assets/fonts/Bodoni\ 72\ Bold.ttf") format("truetype");
+  src: url("../fonts/Bodoni\ 72\ Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: bodoni-italic;
-  src: url("/assets/fonts/Bodoni\ Italic.ttf") format("truetype");
+  src: url("../fonts/Bodoni\ Italic.ttf") format("truetype");
 }
 // global
 body {
@@ -166,7 +166,7 @@ p {
 .hero {
   margin: 0 13px 60px;
   min-height: 660px;
-  background-image: url("/assets/imgs/hero.png");
+  background-image: url(../imgs/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -306,12 +306,10 @@ p {
   align-items: center;
   text-align: center;
   &-content {
-    margin-bottom: 40px;
-    &--mb{
+    margin-bottom: 85px;
       @media screen and (max-width: 500px) {
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
       }
-    }
   }
   &-title {
     font-family: chapaza-regular;
@@ -521,12 +519,14 @@ p {
     @media screen and (max-width: 767px) {
       padding-bottom: 1.3rem;
     }
+   
     @media screen and (max-width: 500px) {
       height: 272px;
       width: 272px;
       margin-right: auto;
       margin-left: auto;
     }
+
     img {
       height: 100%;
       width: 100%;

@@ -1,21 +1,21 @@
 @font-face {
   font-family: avenir-next;
-  src: url("/assets/fonts/Avenir-Next.ttf") format("truetype");
+  src: url("../fonts/Avenir-Next.ttf") format("truetype");
 }
 
 @font-face {
   font-family: chapaza-regular;
-  src: url("/assets/fonts/Chapaza.ttf") format("truetype");
+  src: url("../fonts/Chapaza.ttf") format("truetype");
 }
 
 @font-face {
   font-family: bodoni-72;
-  src: url("/assets/fonts/Bodoni 72 Bold.ttf") format("truetype");
+  src: url("../fonts/Bodoni 72 Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: bodoni-italic;
-  src: url("/assets/fonts/Bodoni Italic.ttf") format("truetype");
+  src: url("../fonts/Bodoni Italic.ttf") format("truetype");
 }
 
 body {
@@ -185,7 +185,7 @@ p {
 .hero {
   margin: 0 13px 60px;
   min-height: 660px;
-  background-image: url("/assets/imgs/hero.png");
+  background-image: url(../imgs/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -371,12 +371,12 @@ p {
 }
 
 .sc-content {
-  margin-bottom: 40px;
+  margin-bottom: 85px;
 }
 
 @media screen and (max-width: 500px) {
-  .sc-content--mb {
-    margin-bottom: 1rem;
+  .sc-content {
+    margin-bottom: 3rem;
   }
 }
 
