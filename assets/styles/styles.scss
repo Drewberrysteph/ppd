@@ -128,10 +128,17 @@ p {
     padding-bottom: 14px;
   }
 }
+
+.nav-item:last-child{
+  @media screen and (max-width: 992px) {
+    padding-bottom: 40px;
+  }
+}
 .dividerHero{
   padding-top: 88px;
   @media screen and (max-width: 992px) {
     padding-top: 109px;
+    padding-bottom: 2rem;
   }
 }
 .divider {
@@ -197,6 +204,16 @@ p {
 // first container
 .fc {
   margin-bottom: 60px;
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
+  
+  .col-fc-left{
+    @media screen and (max-width: 500px) {
+      padding: 0;
+    }
+  }
+
   &-left {
     display: flex;
     justify-content: flex-end;
@@ -206,8 +223,17 @@ p {
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    @media screen and (max-width: 992px) {
+      width: auto;
+      border-radius: 0;
+      padding-bottom: 2rem;
+    }
+
     &-img-container{
       height: 589px;
+      @media screen and (max-width: 992px) {
+        height: auto;
+      }
     }
     &:hover {
       img {
@@ -243,6 +269,14 @@ p {
     margin-top: 50px;
     max-width: 555px;
     padding-left: 20px;
+
+    @media screen and (max-width: 500px) {
+      padding: 0 important;
+      margin-top: 0;
+      max-width: 100%;
+      padding-left: 0;
+    }
+
     &-title {
       font-family: chapaza-regular;
       font-size: 36px;
