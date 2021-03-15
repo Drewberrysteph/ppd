@@ -398,6 +398,12 @@ p {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 500px) {
+  .sc-img-container {
+    margin-bottom: 1rem;
+  }
+}
+
 .sc-img-container:hover img {
   -webkit-transition: 0.25s;
   transition: 0.25s;
@@ -440,6 +446,17 @@ p {
   .sc p {
     margin-top: 10px;
     margin-bottom: 2rem;
+  }
+}
+
+.sc p:last-child {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .sc p:last-child {
+    margin-top: 10px;
+    margin-bottom: 0 !important;
   }
 }
 
