@@ -651,6 +651,15 @@ p {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .fifc-img-container {
+    height: 272px;
+    width: 272px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .fifc-img-container img {
   height: 100%;
   width: 100%;

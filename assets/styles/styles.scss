@@ -521,6 +521,12 @@ p {
     @media screen and (max-width: 767px) {
       padding-bottom: 1.3rem;
     }
+    @media screen and (max-width: 500px) {
+      height: 272px;
+      width: 272px;
+      margin-right: auto;
+      margin-left: auto;
+    }
     img {
       height: 100%;
       width: 100%;
