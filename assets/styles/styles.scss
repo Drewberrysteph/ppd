@@ -109,6 +109,31 @@ p {
   }
 }
 
+.nav-container{
+  @media screen and (max-width: 992px) {
+    max-width: 100% !important;
+    background: $tertiary-color;
+    padding: 20px;
+  }
+}
+
+#navbarNav{
+  @media screen and (max-width: 992px) {
+    padding: 36px 57px;
+  }
+}
+
+.nav-item{
+  @media screen and (max-width: 992px) {
+    padding-bottom: 14px;
+  }
+}
+.dividerHero{
+  padding-top: 88px;
+  @media screen and (max-width: 992px) {
+    padding-top: 109px;
+  }
+}
 .divider {
   height: 50px;
   width: 100%;
@@ -117,6 +142,11 @@ p {
   align-items: center;
   background: $secondary-color;
   color: $tertiary-color;
+  text-align: center;
+  @media screen and (max-width: 992px) {
+    height: 80px;
+    padding: 0 2rem;
+  }
   h6 {
     letter-spacing: 0.1em;
     font-weight: 600;
@@ -133,6 +163,10 @@ p {
   color: $tertiary-color;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 500px) {
+    margin: 0;
+  }
+
   h1 {
     font-family: chapaza-regular;
     font-size: 54px;
@@ -144,9 +178,15 @@ p {
   }
   &-book--mr {
     margin-right: 25px;
+    @media screen and (max-width: 500px) {
+      margin-bottom: 1.5rem;
+    }
   }
   &-elements {
     padding-left: 6rem;
+    @media screen and (max-width: 500px) {
+      padding: 0px 20px;
+    }
   }
 }
 
@@ -519,4 +559,16 @@ p {
           width: 26px;
           border-radius: 50%;
       }
+  }
+
+  // utils
+  .btn:focus,.btn:active {
+      outline: none !important;
+      box-shadow: none;
+  }
+  .hamburger{
+      width: 50px;
+      height: 6px;
+      background-color: $primary-color;
+      margin: 6px 0;
   }

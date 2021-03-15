@@ -110,6 +110,36 @@ p {
   color: #000000 !important;
 }
 
+@media screen and (max-width: 992px) {
+  .nav-container {
+    max-width: 100% !important;
+    background: #ffffff;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #navbarNav {
+    padding: 36px 57px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-item {
+    padding-bottom: 14px;
+  }
+}
+
+.dividerHero {
+  padding-top: 88px;
+}
+
+@media screen and (max-width: 992px) {
+  .dividerHero {
+    padding-top: 109px;
+  }
+}
+
 .divider {
   height: 50px;
   width: 100%;
@@ -124,6 +154,14 @@ p {
           align-items: center;
   background: #000000;
   color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .divider {
+    height: 80px;
+    padding: 0 2rem;
+  }
 }
 
 .divider h6 {
@@ -147,6 +185,12 @@ p {
           align-items: center;
 }
 
+@media screen and (max-width: 500px) {
+  .hero {
+    margin: 0;
+  }
+}
+
 .hero h1 {
   font-family: chapaza-regular;
   font-size: 54px;
@@ -162,8 +206,20 @@ p {
   margin-right: 25px;
 }
 
+@media screen and (max-width: 500px) {
+  .hero-book--mr {
+    margin-bottom: 1.5rem;
+  }
+}
+
 .hero-elements {
   padding-left: 6rem;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-elements {
+    padding: 0px 20px;
+  }
 }
 
 .fc {
@@ -642,5 +698,18 @@ p {
   height: 26px;
   width: 26px;
   border-radius: 50%;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.hamburger {
+  width: 50px;
+  height: 6px;
+  background-color: #e38f68;
+  margin: 6px 0;
 }
 /*# sourceMappingURL=styles.css.map */

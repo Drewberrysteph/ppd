@@ -36,21 +36,24 @@
   <body>
     <!-- start of nav -->
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
-      <div class="container">
-        <div class="d-flex">
+      <div class="container nav-container">
+        <div class="d-flex justify-content-between w-100 bg-white">
           <a href="index.html" class="navbar-brand"
             ><img src="./assets/imgs/ppdlogo.svg"
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler shadow-none"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style="border:none"
           >
-            <span class="navbar-toggler-icon"></span>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
           </button>
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -75,321 +78,28 @@
         </div>
       </div>
     </nav>
-    <!-- end of nav -->
-    <div class="divider">
-      <h6>SHIPS WORLDWIDE. STRICTLY BY APPOINTMENTS ONLY.</h6>
-    </div>
-    <!-- hero  -->
-    <div class="hero">
-      <div class="container hero-elements">
-        <h1>Ready to say YES?</h1>
-        <p>
-          We’re a home for brides-to-be where dream wedding gowns become
-          reality.
-        </p>
-        <div class="hero-buttons">
-          <button class="btn button-primary hero-book--mr">
-            Book appointment
-          </button>
-          <button class="btn button-secondary">Choose your package</button>
+    <div class="dividerHero">
+        <!-- end of nav -->
+        <div class="divider">
+          <h6>SHIPS WORLDWIDE. STRICTLY BY APPOINTMENTS ONLY.</h6>
         </div>
-      </div>
-    </div>
-    <!-- first container  -->
-    <div class="container fc">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="fc-left">
-            <div class="fc-left-img-container">
-              <img
-              src="./assets/imgs/springbanner.png"
-              alt="spring-banner"
-              class="img-fluid"
-              />
-              <div class="overlay"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 fc-right">
-          <div class="fc-right">
-            <h3 class="fc-right-title">Discover our new collection</h3>
-            <p class="fc-right-subtitle">Spring 2021 collection</p>
-            <p class="fc-right-description">
-              Patricia Pascual’s Spring 2021 takes on a fairytale approach. A
-              bride’s desire to express her individuality in her daily life with
-              her scent, and through fashion on her wedding day, ushered in new
-              approaches to gossamer tulles, fine laces and intricate
-              embroidery, woven into our interpretation of how the world of
-              scents would come to life in our latest 2021 Spring collection.
+        <!-- hero  -->
+        <div class="hero">
+          <div class="container hero-elements">
+            <h1>Ready to say YES?</h1>
+            <p>
+              We’re a home for brides-to-be where dream wedding gowns become
+              reality.
             </p>
-            <button class="btn button-tertiary">Discover more</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end first container  -->
-
-    <!-- second container  -->
-    <div class="container sc">
-      <h3 class="sc-title">Check out our 2020 Ready-to-Wear bridal gowns</h3>
-      <p class="sc-description">
-        Choose from our ready made designs and several sizes that have been
-        tailor fitted to look beautiful on any body type.
-      </p>
-      <div class="row sc-content">
-        <div class="col-md-4">
-          <div class="sc-img-container">
-            <img src="./assets/imgs/levi.png" alt="levi" class="img-fluid" />
-          </div>
-          <p>Levi</p>
-        </div>
-        <div class="col-md-4">
-          <div class="sc-img-container">
-            <img src="./assets/imgs/diane.png" alt="diane" class="img-fluid" />
-          </div>
-          <p>Diane</p>
-        </div>
-        <div class="col-md-4">
-          <div class="sc-img-container">
-            <img
-              src="./assets/imgs/martina.png"
-              alt="martina"
-              class="img-fluid"
-            />
-          </div>
-          <p>Martina</p>
-        </div>
-      </div>
-      <button class="btn button-tertiary sc-button">Browse all gowns</button>
-    </div>
-    <!-- end second container  -->
-
-    <!-- third container  -->
-    <div class="container tc">
-      <h3 class="tc-title">Choose your bridal package</h3>
-      <p class="tc-description-1">
-        We’re a home for brides-to-be where dream wedding gowns become reality.
-      </p>
-      <p class="tc-description-2">
-        Our packages include: a bridal veil, a bridal robe, a bridal garter, a
-        secondary veil, two pillows, a cord, an arrhae, and the lending of a
-        mannequin.
-      </p>
-      <div class="row tc-content">
-        <div class="col-md-4">
-          <div class="tc-content-pckg">
-            <div class="tc-img-container">
-              <img src="./assets/imgs/pkg1.png" alt="Pkg1" class="img-fluid" />
-            </div>
-            <div class="tc-img-container-details">
-              <p>Plain Bridal Gown</p>
-              <p class="price">Php47,000</p>
-              <p class="tc-description">
-                Simple elegant soft or structured plain or with french lace or
-                chantilly lace bridal gown with no beading, crystals or
-                embellishment.
-              </p>
-              <button class="btn button-tertiary tc-button">
-                Choose this package
+            <div class="hero-buttons">
+              <button class="btn button-primary hero-book--mr">
+                Book appointment
               </button>
+              <button class="btn button-secondary">Choose your package</button>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="tc-content-pckg">
-            <div class="tc-img-container">
-              <img src="./assets/imgs/pkg2.png" alt="Pkg2" class="img-fluid" />
-            </div>
-            <div class="tc-img-container-details">
-              <p>Minimalist Bridal Gown</p>
-              <p class="price">Php67,000</p>
-              <p class="tc-description">
-                Soft or structured gown with custom made embroidery from
-                shoulder cascading to first hips area with intricate beadwork
-                and Swarovski crystals.
-              </p>
-              <button class="btn button-tertiary tc-button">
-                Choose this package
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="tc-content-pckg">
-            <div class="tc-img-container">
-              <img src="./assets/imgs/pkg3.png" alt="Pkg3" class="img-fluid" />
-            </div>
-            <div class="tc-img-container-details">
-              <p>Fully Embellished Bridal Gown</p>
-              <p class="price">Php87,000 & up</p>
-              <p class="tc-description">
-                Soft or structured gown with custom made embroidery from
-                shoulder cascading to floor with intricate beadwork and
-                Swarovski crystals.
-              </p>
-              <button class="btn button-tertiary tc-button">
-                Choose this package
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-    <!-- end third container  -->
-
-    <!--  fourth container  -->
-    <div class="frc">
-      <div class="frc-content">
-        <h3 class="frc-title">
-          Excited to plan with us? Book a consultation and let’s start sketching
-          your dream gown!
-        </h3>
-        <p class="frc-description">
-          Request an appointment for a virtual or in-house consultation.
-        </p>
-        <button class="btn button-secondary frc-button">
-          Book an appointment
-        </button>
-      </div>
-    </div>
-    <!-- end fourth container  -->
-
-    <!-- fifth container  -->
-    <div class="container fifc">
-      <h3 class="fifc-title">#PPDBRIDE</h3>
-      <p class="fifc-description">
-        Real brides wearing Patricia Pascual Designs tagged in our
-        instagram <a href="https://www.instagram.com/patriciapascualdesigns/" target="_blank">@patriciapascualdesigns</a> and facebook <a href="https://www.facebook.com/patriciapascualdesigns" target="_blank">patriciapascualdesigns</a>
-      </p>
-      <div class="row fifc-content">
-        <div class="col-md-3">
-          <div class="fifc-img-container">
-            <img src="./assets/imgs/social-1.png" alt="Social-1" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="fifc-img-container">
-            <img src="./assets/imgs/social-3.png" alt="Social-3" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="fifc-img-container">
-            <img src="./assets/imgs/social-2.png" alt="Social-2" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="fifc-img-container">
-            <img src="./assets/imgs/social-4.png" alt="Social-4" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-      <a href="https://www.instagram.com/patriciapascualdesigns/" target="_blank" class="btn button-tertiary fifc-button">
-        Follow us on instagram
-      </a>
-    </div>
-    <!-- end fifth container  -->
-
-     <!-- last container  -->
-     <div class="container lastc">
-      <h3 class="lastc-title">Let’s get in touch!</h3>
-      <p class="lastc-description">
-        Reach us through mobile or schedule an appointment to visit the shop!
-      </p>
-      <div class="row lastc-content">
-        <div class="col-md-6">
-          <a href="tel:+639178020166">
-            <div class="lastc-details">
-              <img src="./assets/imgs/phone.svg" alt="phone-icon"/>
-              +63 917 802 0166
-            </div>
-          </a>
-          <a href="mailto:patriciapascualdesigns@gmail.com">
-          <div class="lastc-details">
-            <img src="./assets/imgs/email.svg" alt="email-icon"/>
-              patriciapascualdesigns@gmail.com
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <div class="lastc-details">
-            <img src="./assets/imgs/location.svg" alt="location-icon" class="location"/>
-            <p>Unit 2-02 Haven Building Congressional Avenue
-              Extension, Quezon City. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end last container  -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-container">
-          <div class="footer-left-container">
-              <div>
-                <img src="./assets/imgs/ppd-logo.svg" alt="ppd-logo">
-              </div>
-              <p class="footer-info">Lavish dresses, ornate details and
-                personalization you won’t find anywhere else.</p>
-          </div>
-          <div class="footer-right-container">
-            <div class="footer-items">
-              <p>
-                Terms of Service
-                Privacy Policy
-                Sitemap
-              </p>
-            </div>
-            <div class="footer-items">
-              <p>
-                Bride
-              </p>
-              <ul class="custom-ul">
-                  <li class="custom-li footer-info">Bestsellers</li>
-                  <li class="custom-li footer-info">Ready-to-Wear</li>
-                  <li class="custom-li footer-info">2020 Fall Collection</li>
-                  <li class="custom-li footer-info">2021 Spring Collection</li>
-              </ul>
-            </div>
-            <div class="footer-items">
-              <p>
-                About
-              </p>
-              <ul class="custom-ul">
-                <li class="custom-li footer-info">About PPD</li>
-                <li class="custom-li footer-info">Meet the designer</li>
-                <li class="custom-li footer-info">Contact Us</li>
-                <li class="custom-li footer-info">FAQ</li>
-              </ul>
-            </div>
-            <div class="footer-items">
-              <p>
-                Book an Appointment
-              </p>
-              <ul class="custom-ul">
-                <li class="custom-li footer-info">Book virtual consultation</li>
-                <li class="custom-li footer-info">Book atelier consultation</li>
-              </ul>
-            </div>
-            <div class="footer-items">
-              <p>
-                Entourage
-              </p>
-              <p>Groom</p>
-              <p>
-                #PPDBRIDE
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="footer-social">
-          <p class="footer-info">
-            Copyright © 2021 Patricia Pascual Designs
-          </p>
-          <div>
-            <!-- <a href="#"><img src="./assets/imgs/instagram.svg" class="social-icon" alt="instagram"/></a> -->
-            <a href="https://www.facebook.com/patriciapascualdesigns" target="_blank"><img src="./assets/imgs/facebook.svg" class="social-icon" alt="facebook"/></a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    
   </body>
 </html>
