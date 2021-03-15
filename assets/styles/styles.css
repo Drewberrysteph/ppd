@@ -385,6 +385,12 @@ p {
   width: 450px;
 }
 
+@media screen and (max-width: 500px) {
+  .sc-description {
+    width: 100%;
+  }
+}
+
 .sc-img-container {
   overflow: hidden;
   position: relative;
@@ -428,6 +434,13 @@ p {
 
 .sc p {
   margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .sc p {
+    margin-top: 10px;
+    margin-bottom: 2rem;
+  }
 }
 
 .sc-button {
@@ -485,6 +498,12 @@ p {
   font-weight: bold;
 }
 
+@media screen and (max-width: 500px) {
+  .tc-description-2 {
+    width: 100%;
+  }
+}
+
 .tc-img-container {
   overflow: hidden;
   position: relative;
@@ -507,6 +526,12 @@ p {
   width: 221px;
 }
 
+@media screen and (max-width: 500px) {
+  .tc-button {
+    margin-bottom: 2rem;
+  }
+}
+
 .frc {
   margin-bottom: 100px;
   width: 100%;
@@ -522,6 +547,14 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .frc {
+    height: 100%;
+    padding: 3rem 1rem;
+    margin-bottom: 60px;
+  }
 }
 
 .frc-content {
@@ -560,6 +593,12 @@ p {
   text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+  .fifc {
+    margin-bottom: 60px;
+  }
+}
+
 .fifc-content {
   margin-bottom: 2rem;
 }
@@ -575,6 +614,12 @@ p {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 500px) {
+  .fifc-description {
+    width: 100%;
+  }
+}
+
 .fifc-description a {
   text-decoration: none;
   color: #e38f68;
@@ -584,6 +629,12 @@ p {
   overflow: hidden;
   position: relative;
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .fifc-img-container {
+    padding-bottom: 1.3rem;
+  }
 }
 
 .fifc-img-container img {
@@ -647,6 +698,12 @@ p {
 
 .lastc-details img {
   margin-right: 35px;
+}
+
+@media screen and (max-width: 500px) {
+  .lastc-details img {
+    margin-right: 1rem;
+  }
 }
 
 .lastc-title {
