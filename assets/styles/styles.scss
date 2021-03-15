@@ -176,11 +176,15 @@ p {
     letter-spacing: 0.05em;
     margin-bottom: 2rem;
   }
-  &-book--mr {
+  &-book-btn {
     margin-right: 25px;
+    margin-bottom: 1.5rem;
     @media screen and (max-width: 500px) {
       margin-bottom: 1.5rem;
     }
+  }
+  &-choose-btn {
+    margin-bottom: 1.5rem;
   }
   &-elements {
     padding-left: 6rem;
