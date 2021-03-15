@@ -120,7 +120,13 @@ p {
 
 @media screen and (max-width: 992px) {
   #navbarNav {
-    padding: 36px 57px;
+    padding: 36px 45px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navbarNav {
+    padding: 36px 28px;
   }
 }
 
@@ -265,7 +271,7 @@ p {
   cursor: pointer;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .fc-left {
     width: auto;
     border-radius: 0;

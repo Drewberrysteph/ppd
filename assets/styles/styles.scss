@@ -119,7 +119,10 @@ p {
 
 #navbarNav{
   @media screen and (max-width: 992px) {
-    padding: 36px 57px;
+    padding: 36px 45px;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 36px 28px;
   }
 }
 
@@ -223,7 +226,7 @@ p {
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1200px) {
       width: auto;
       border-radius: 0;
       padding-bottom: 2rem;
