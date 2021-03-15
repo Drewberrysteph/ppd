@@ -639,6 +639,9 @@ p {
         a{
           color: inherit;
           text-decoration: none;
+          &:hover{
+            color: $tertiary-color
+          }
         }
         @media screen and (max-width: 630px) {
          flex-direction: column;
@@ -682,6 +685,9 @@ p {
         a{
           color: inherit;
           text-decoration: none;
+          &:hover{
+            color: $tertiary-color
+          }
         }
         .custom-ul{
           margin-top: 10px;
