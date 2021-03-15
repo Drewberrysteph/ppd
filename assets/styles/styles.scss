@@ -420,7 +420,7 @@ p {
     margin-bottom: 2.6rem;
     width: 600px;
     font-weight: bold;
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 620px) {
       width: 100%;
     }
   }
@@ -506,7 +506,7 @@ p {
   &-description {
     width: 510px;
     margin-bottom: 2rem;
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 525px) {
       width: 100%;
     }
     a{

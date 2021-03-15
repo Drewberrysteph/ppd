@@ -512,7 +512,7 @@ p {
   font-weight: bold;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
   .tc-description-2 {
     width: 100%;
   }
@@ -628,7 +628,7 @@ p {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
   .fifc-description {
     width: 100%;
   }
