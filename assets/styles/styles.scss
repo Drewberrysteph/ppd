@@ -307,6 +307,11 @@ p {
   text-align: center;
   &-content {
     margin-bottom: 40px;
+    &--mb{
+      @media screen and (max-width: 500px) {
+        margin-bottom: 1rem;
+      }
+    }
   }
   &-title {
     font-family: chapaza-regular;
@@ -325,9 +330,7 @@ p {
     position: relative;
     cursor: pointer;
     border-radius: 5px;
-    @media screen and (max-width: 500px) {
-      margin-bottom: 1rem;
-    }
+   
     &:hover {
       img {
         transition: 0.25s;
@@ -365,15 +368,10 @@ p {
       margin-bottom: 2rem;
     }
   }
-  p:last-child {
-    margin-top: 15px;
-    @media screen and (max-width: 500px) {
-      margin-top: 10px;
-      margin-bottom: 0 !important;
-    }
-  }
+ 
   &-button {
     width: 232px;
+    margin-top: -2rem;
   }
 }
 // end of second container
@@ -401,6 +399,11 @@ p {
     cursor: pointer;
     border-radius: 5px;
     padding-bottom: 2rem;
+    @media screen and (max-width: 500px) {
+      margin-bottom: 2rem;
+      padding-bottom: 0rem;
+    }
+
     &:hover {
       background: #eee;
       box-shadow: 0 4 5px -5px #eeeeee;

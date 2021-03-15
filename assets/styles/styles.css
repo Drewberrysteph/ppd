@@ -374,6 +374,12 @@ p {
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 500px) {
+  .sc-content--mb {
+    margin-bottom: 1rem;
+  }
+}
+
 .sc-title {
   font-family: chapaza-regular;
   font-size: 36px;
@@ -396,12 +402,6 @@ p {
   position: relative;
   cursor: pointer;
   border-radius: 5px;
-}
-
-@media screen and (max-width: 500px) {
-  .sc-img-container {
-    margin-bottom: 1rem;
-  }
 }
 
 .sc-img-container:hover img {
@@ -449,19 +449,9 @@ p {
   }
 }
 
-.sc p:last-child {
-  margin-top: 15px;
-}
-
-@media screen and (max-width: 500px) {
-  .sc p:last-child {
-    margin-top: 10px;
-    margin-bottom: 0 !important;
-  }
-}
-
 .sc-button {
   width: 232px;
+  margin-top: -2rem;
 }
 
 .tc {
@@ -495,6 +485,13 @@ p {
   cursor: pointer;
   border-radius: 5px;
   padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .tc .tc-content-pckg {
+    margin-bottom: 2rem;
+    padding-bottom: 0rem;
+  }
 }
 
 .tc .tc-content-pckg:hover {
